@@ -1,8 +1,3 @@
-// 360ÃæÊÔ.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌÐòµÄÈë¿Úµã¡£
-//
-
-#include "stdafx.h"
-
 /*
 
 struct Node {
@@ -18,7 +13,7 @@ Node* next();
 };
 6
 4      8
-ÖÐÐò£º4=>6=>8
+ï¿½ï¿½ï¿½ï¿½4=>6=>8
 
 */
 
@@ -40,7 +35,7 @@ private:
 	Node* m_pRoot;
 	Node* m_pNodeNow;
 	int m_nNowIndex;
-	int m_nNum;//½áµã×ÜÊý
+	int m_nNum;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	vector<Node*> m_vetSeq;
 };
 
