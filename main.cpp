@@ -13,7 +13,7 @@ Node* next();
 };
 6
 4      8
-����4=>6=>8
+中序遍历4=>6=>8
 
 */
 
@@ -35,7 +35,7 @@ private:
 	Node* m_pRoot;
 	Node* m_pNodeNow;
 	int m_nNowIndex;
-	int m_nNum;//�������
+	int m_nNum;
 	vector<Node*> m_vetSeq;
 };
 
